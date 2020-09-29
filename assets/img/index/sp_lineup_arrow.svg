@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="27" viewBox="0 0 15 27">
+  <defs>
+    <pattern id="pattern" width="1" height="1" patternTransform="matrix(1, 0, 0, -1, 0, 30)" viewBox="0 0 27 15">
+      <image preserveAspectRatio="none" width="27" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAPCAQAAAC/mnxTAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCR0VNQ/GAaC7AAABMUlEQVQoz43QMWtTURgG4Oee2y4ZOvSCk0sdLHRwK1IoNBRpFUQKBW2gS5BOLtJkcAkGdDTt5pTBJUQQdOrgZg3YoWIsxCEB/0BBqIPg0JIuqaY3V8yZznm/9znDF1VzSnhm3FMRvJgwp2hGrDoWqtnut6Nm8Nk9vzy1Owaq2/YzKugFdKzgseZ/0DsPnVrSJYBP7mLDe5P/IBNa1nCrf8QFY88mVrRMZaBExyLu248MMxrKuOlQkkLXfDWLLW8uojA0rnmO67pmh9IbDl1FWf1vGC79W/ESiS8WBsmStmnsqA0XLzMeeY2clttY90HAK6X0htKn4IplsYa3HgwWX0yXouro3mIH5v+8PsrrpythVDlzR29w71gdRdmMH1Yd47tlv7MKcT7TOdGVeOJb9vgccrxA334Oo0EAAAAASUVORK5CYII="/>
+    </pattern>
+  </defs>
+  <rect id="長方形_1" data-name="長方形 1" width="27" height="15" transform="translate(15) rotate(90)" fill="url(#pattern)"/>
+</svg>

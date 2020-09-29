@@ -1,0 +1,27 @@
+// Font
+// ---------------------------------------------------------------------------
+@font-face { 
+    font-family: 'hiragino'; 
+    src:url('../font/ヒラギノ明朝 Std W4.otf'); 
+ }
+ @font-face { 
+    font-family: 'aotf'; 
+    src:url('../font/A-OTF-OutaiKaiStd-Light.otf'); 
+ }
+
+
+// Color
+// ---------------------------------------------------------------------------
+$gray: #808080;
+$usugray: #d5d8d9;
+$beige:#92794a;
+$usubeige: #a18d65;
+$brown: #8a4f42;
+$situbg: #e9e4de;
+$btn: #9c837a;
+
+* {
+    img {
+        width: 100%;
+    }
+}
