@@ -213,7 +213,8 @@ a {
 .index {
   font-family: 'hiragino';
   background-color: #ffffff;
-  max-width: 1450px;
+  width: 100%;
+  overflow: hidden;
   min-width: 1370px;
   margin: 0 auto;
 }
@@ -1521,9 +1522,13 @@ a {
 }
 
 .index .lineup__bg {
-  width: 40%;
-  margin-left: -180px;
+  text-align: left;
+  margin-left: -40%;
   margin-top: -80px;
+}
+
+.index .lineup__bg img {
+  width: 30%;
 }
 
 .index .lineup__produ_wrap {
@@ -1539,9 +1544,11 @@ a {
 }
 
 .index .lineup__produ_wrap .header__btn {
+  text-align: center;
   padding: 8px 0;
   margin-bottom: 60px;
   width: 47%;
+  margin-right: 0px;
 }
 
 .index .lineup__produ_wrap .header__btn a {
@@ -1771,11 +1778,8 @@ a {
 }
 
 .index .qa label span img {
-  position: absolute;
-  left: 23%;
-  top: 23%;
-  padding-right: 20px;
-  width: 3.5%;
+  width: 2%;
+  margin-right: 20px;
 }
 
 .index .qa label .arrow {
@@ -1809,7 +1813,7 @@ a {
 
 .index .qa__acco li p {
   padding-top: 40px;
-  padding-left: 26.5%;
+  padding-left: 27%;
   color: #a18d65;
   font-size: 18px;
   line-height: 2em;
@@ -1818,10 +1822,10 @@ a {
 
 .index .qa__acco li p img {
   position: absolute;
-  left: 23%;
+  left: 25.3%;
   top: 27%;
   display: block;
-  width: 1.8%;
+  width: 1.6%;
 }
 
 .index .qa #type1:checked ~ #links1 li,
@@ -1936,6 +1940,10 @@ a {
   font-family: "kakugo";
   color: #ffffff;
   font: 1em;
+}
+
+.index .footer a:hover {
+  color: #d7dbdd;
 }
 
 .index .footer p {

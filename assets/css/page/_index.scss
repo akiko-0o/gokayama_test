@@ -1,7 +1,8 @@
 .index {
     font-family: 'hiragino';
     background-color: #ffffff;
-    max-width: 1450px;
+    width: 100%;
+    overflow: hidden;
     min-width: 1370px;
     margin: 0 auto;
     a {
@@ -1139,10 +1140,12 @@
             }
         }
         &__bg {
-            width: 40%;
-            margin-left: -180px;
+            text-align: left;
+            margin-left: -40%;
             margin-top: -80px;
-            
+            img {
+                width: 30%;
+            }
         }
         &__produ_wrap {
             display: flex;
@@ -1151,9 +1154,11 @@
             z-index:99;
             position: relative;
             .header__btn {
+                text-align: center;
                 padding: 8px 0;
                 margin-bottom: 60px;
                 width: 47%;
+                margin-right: 0px;
                 a {
                     font-size: 14px;
                     color: #ffffff;
@@ -1376,11 +1381,8 @@
             cursor :pointer;
             span {
                 img {
-                    position: absolute;
-                    left: 23%;
-                    top: 23%;
-                    padding-right: 20px;
-                    width: 3.5%;
+                    width: 2%;
+                    margin-right: 20px;
                 }
             }
             .arrow {
@@ -1416,17 +1418,17 @@
 
             p {
                 padding-top: 40px;
-                padding-left: 26.5%;
+                padding-left: 27%;
                 color: $usubeige;
                 font-size: 18px;
                 line-height: 2em;
                 letter-spacing: 0.09em;
                 img {
                     position: absolute;
-                    left: 23%;
+                    left: 25.3%;
                     top: 27%;
                     display: block;
-                    width: 1.8%;
+                    width: 1.6%;
                 }
             }
         }
@@ -1535,6 +1537,9 @@
             font-family: "kakugo";
             color: #ffffff;
             font: 1em;
+            &:hover {
+                color: #d7dbdd;
+            }
         }
         p {
             font-family: "kakugo";
