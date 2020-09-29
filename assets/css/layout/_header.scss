@@ -24,6 +24,9 @@
         a {
             font-size: 15px;
             color: $gray;
+            &:hover {
+                color: #8b4f42;
+            }
         }
     }
     &__sns {
